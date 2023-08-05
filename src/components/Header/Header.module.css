@@ -1,0 +1,10 @@
+@import url('../../index.css');
+
+.h1 {
+    text-align: center;
+}
+
+.span {
+    color: var(--oran-3);
+    text-transform: uppercase;
+}

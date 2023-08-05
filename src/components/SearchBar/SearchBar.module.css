@@ -1,0 +1,24 @@
+@import url(../../index.css);
+
+.searchBar {
+    height: 2rem;
+    width: 30rem;
+}
+
+.searchInput {
+    height: 100%;
+    width: 75%;
+}
+.searchInput:focus {
+    outline: none;
+    border: 2px solid var(--oran-3);
+}
+
+.searchButton {
+    font-family: inherit;
+    height: 100%;
+    width: 25%;
+    cursor: pointer;
+    background-color: var(--oran-3);
+    color: var(--viol-1);
+}

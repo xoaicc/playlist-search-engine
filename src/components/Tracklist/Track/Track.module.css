@@ -1,0 +1,30 @@
+@import url(../../../index.css);
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--viol-3);
+    padding: .5rem;
+    position: relative;
+}
+.wrapper + .wrapper {
+    margin-top: 1rem;
+}
+
+.icon {
+    color: var(--oran-1);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10%;
+    height: 100%;
+    cursor: pointer;
+}
+.icon:hover {
+    background-color: var(--viol-2);
+}

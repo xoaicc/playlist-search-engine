@@ -1,3 +1,27 @@
+:root {
+  /* Orange color scheme */
+  --oran-1: #FF6D00;
+  --oran-2: #FF8500;
+  --oran-3: #FF9E00;
+
+  /* Violet color scheme */
+  --viol-1: #240046;
+  --viol-2: #5A189A;
+  --viol-3: #9D4EDD;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +29,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--viol-1);
+  width: 100vw;
+  position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body::-webkit-scrollbar {
+  display: none;
 }
