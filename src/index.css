@@ -21,6 +21,9 @@ html {
 h1 {
   font-size: 2rem;
 }
+h2 {
+  font-weight: 1.6rem;
+}
 
 body {
   margin: 0;

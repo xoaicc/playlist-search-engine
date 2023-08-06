@@ -1,15 +1,5 @@
 @import url(./index.css);
 
-header {
-  height: 4rem;
-  width: 100%;
-  background-color: var(--viol-2);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2;
-}
-
 h1, h2, h3 {
   margin: .5rem 0;
   color: var(--oran-2);
@@ -17,6 +7,19 @@ h1, h2, h3 {
 
 p {
   color: var(--oran-1);
+}
+
+header {
+  height: 4rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.header-down {
+  background-color: var(--viol-2);
 }
 
 main {
@@ -36,6 +39,9 @@ main {
   height: 40rem;
   margin: 0 3%;
   background-color: var(--viol-2);
+  outline-style: outset;
+  outline-width: 5px;
+  outline-color: var(--viol-1);
 }
 .wrapper + .wrapper {
   margin-left: 4%;
@@ -43,4 +49,19 @@ main {
 
 #search-bar {
   height: 20rem;
+}
+
+@media only screen and (max-width: 450px) {
+  #content {
+    display: block;
+  }
+
+  .wrapper {
+    width: 100%;
+    margin: 0;
+  }
+  .wrapper + .wrapper {
+    margin-left: 0;
+    margin-top: 2rem;
+  }
 }

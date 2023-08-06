@@ -2,11 +2,13 @@
 
 .wrapper {
     width: 100%;
+    height: fit-content;
     display: flex;
     justify-content: space-between;
-    background-color: var(--viol-3);
+    background-color: var(--viol-1);
     padding: .5rem;
     position: relative;
+    box-shadow: inset -5px -5px var(--viol-3);
 }
 .wrapper + .wrapper {
     margin-top: 1rem;
